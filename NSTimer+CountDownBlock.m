@@ -7,7 +7,7 @@
 //
 
 #import "NSTimer+CountDownBlock.h"
-
+#import <objc/runtime.h>
 static void * CountDownTimerSecondsToGo = &CountDownTimerSecondsToGo;
 
 @implementation NSTimer (CountDownBlock)
